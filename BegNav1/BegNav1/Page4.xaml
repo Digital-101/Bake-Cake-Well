@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page4"
+             BackgroundColor="Aquamarine"
+             Title="Tip 4">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="4. Be accurate with weights and ingredients "
+                   FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img2" Source="p4.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+            <Label Text="Make sure you use the exact measurements and ingredients as stated in the recipe. You can't just add more baking powder if you want your cake to rise more or substitute self-raising flour for plain. Use measuring spoons rather than tablewear to ensure accuracy. Also, avoid mixing imperial and metric measurements, pick one or the other."
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked4" ></Button>
+            <Button Text="Next ->" BackgroundColor="Aqua" Clicked="Button_Clicked44" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

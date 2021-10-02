@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegNav1.Android", "BegNav1\BegNav1.Android\BegNav1.Android.csproj", "{713391F7-193B-47FF-A285-2E8BA0BCD174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegNav1", "BegNav1\BegNav1\BegNav1.csproj", "{0467174C-36EE-437B-BEA3-2D31C8B55BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713391F7-193B-47FF-A285-2E8BA0BCD174}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0467174C-36EE-437B-BEA3-2D31C8B55BF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A32C7D-F837-437F-A53B-D6FF999CD383}
+	EndGlobalSection
+EndGlobal

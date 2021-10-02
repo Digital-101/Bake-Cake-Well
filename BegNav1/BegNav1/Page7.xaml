@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page7"
+             BackgroundColor="Aquamarine"
+             Title="Tip 7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="7. Once the cake mixture is made put it straight into the oven"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img" Source="p7.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+            <Label Text="The raising agent will start working as soon as it comes into contact with any of the 'wet' ingredients so to ensure a good rise your cake mixture should go into the oven straightaway."
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked7" ></Button>
+            <Button Text="Next ->" BackgroundColor="Aqua" Clicked="Button_Clicked77" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

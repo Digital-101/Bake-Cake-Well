@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.MainPage"
+             BackgroundColor="Aquamarine"
+             Title="How to make cake: Top 10 tips for success">
+
+    <StackLayout>
+        <Label Text="10 Tips to bake Well :)"
+                FontSize="50"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+        <Image x:Name="img" Source="broot.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+        
+        <Button Text="About App" BackgroundColor="Aqua" Clicked="Button_Clicked" ></Button>
+
+        <!--<ImageButton Source="broot.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"
+                        Clicked="ImageButton_Clicked" />-->
+        <!-- Place new controls here -->
+    </StackLayout>
+
+</ContentPage>

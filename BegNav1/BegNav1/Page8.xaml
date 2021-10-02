@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page8"
+             BackgroundColor="Aquamarine"
+             Title="Tip 8">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="8. Put the cake on the correct shelf and keep the oven door closed"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img2" Source="p8.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+            <Label Text="Cakes are generally best placed on the middle shelf to ensure even cooking.
+Once the cake is in, avoid opening the door until it's almost cooked. If you allow cold air into the oven the cake is likely to collapse, you need to wait until it's properly set before taking a peek. Similarly, when you're putting the cake into the oven, don't hang about and let all the heat out.
+"
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked8" ></Button>
+            <Button Text="Next ->" BackgroundColor="Aqua" Clicked="Button_Clicked88" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

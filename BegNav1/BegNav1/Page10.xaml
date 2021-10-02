@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page10"
+             BackgroundColor="Aquamarine"
+             Title="Tip 10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="10. Cooling cakes"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img2" Source="p10.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>            <Label Text="Recipes will usually give instructions for cooling but as a general rule, most sponge cakes are best left for a few minutes and then turned onto a cooling rack to avoid soggy edges. Rich fruit cakes are better cooled in the tin."
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked10" ></Button>
+            <Button Text="Go To Home Page" BackgroundColor="Aqua" Clicked="Button_Clicked101" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

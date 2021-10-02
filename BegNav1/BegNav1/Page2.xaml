@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page2"
+             BackgroundColor="Aquamarine"
+             Title="Tip 2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="2. Use the tin size stated in the recipe and line it well "
+               FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img2" Source="p2.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+            <Label Text="If you want to use a different one then you'll need to adjust the cooking time.
+Baking parchment works really well for lining as it's non-stick. Softened butter dusted with flour, or oil dusted with flour, are alternatives. Don't use too much fat though or you'll fry the sides of the cake. If you're cooking a cake for a long time (rich fruit cake, for example), it's worth wrapping the outside of the tin too using brown paper and string to stop the edges from burning.
+"
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked_1" ></Button>
+
+            <Button Text="Next ->" BackgroundColor="Aqua" Clicked="Button_Clicked" ></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

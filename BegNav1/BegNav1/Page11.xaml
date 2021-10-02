@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page11"
+             BackgroundColor="Aquamarine"
+             Title="About">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About App"
+                FontSize="50"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Label Text="This Application is made with Love by Digital-101. My Email -> mk9digital13@gmail.com"
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+            <Image x:Name="img" Source="ref.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>
+            <!--<Label Text="Pictures are from Google and All Tips/Content https://www.bbcgoodfood.com/recipes/raspberry-bakewell-cake"
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>-->
+
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="All Tips and Content are from BBC Good Food"
+                              FontSize="20"
+                              BackgroundColor="AntiqueWhite"
+                              FontAttributes="Bold">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Button Text="Go To Home Page" BackgroundColor="Aqua" Clicked="Button_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BegNav1.Page9"
+             BackgroundColor="Aquamarine"
+             Title="Tip 9">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="9. Stick to cooking times"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />            <Image x:Name="img2" Source="p9.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"></Image>            <Label Text="If you've used the right tin and you've got a good oven, the timings stated in the recipe should be accurate. As ovens do vary, check the cake just before the end of the cooking time. A cake that is cooked through should feel the same if pressed around the edges or in the middle. Also, a skewer inserted in the centre should come out dry. If your cake is not properly cooked but looking brown, you can cover it with a bit of dampened greaseproof paper."
+                HorizontalOptions="Center"
+                   FontSize="20"                    FontAttributes="Bold"/>
+
+
+            <Button Text="&lt;- Prev " BackgroundColor="Aqua" Clicked="Button_Clicked9" ></Button>
+            <Button Text="Next ->" BackgroundColor="Aqua" Clicked="Button_Clicked99" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
